@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", async (e) => {
     e.preventDefault(); // estää sivun uudelleenlatauksen
 
-    // Kerää lomakkeen tiedot
+    // Kerää lomakkeen tiedot asiakkaista
     const newCustomer = {
       first_name: document.getElementById("firstName").value,
       last_name: document.getElementById("lastName").value,
