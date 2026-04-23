@@ -156,6 +156,7 @@ button:hover {
     align-items: center;
   }
 
+  /*poista nappi */
   #deletebutton {
   margin-top: 1rem;
   padding: 0.6rem 1rem;
